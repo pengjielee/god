@@ -33,15 +33,15 @@ func main() {
 	flag.BoolVar(&h, "help", false, "show help")
 
 	var v bool
-	flag.BoolVar(&v, "v", false, "show version")
+	flag.BoolVar(&v, "v", false, "")
 	flag.BoolVar(&v, "version", false, "show version")
 
 	var d bool
-	flag.BoolVar(&d, "d", false, "show current date")
+	flag.BoolVar(&d, "d", false, "")
 	flag.BoolVar(&d, "date", false, "show current date")
 
 	var n bool
-	flag.BoolVar(&n, "n", false, "show current timestamp")
+	flag.BoolVar(&n, "n", false, "")
 	flag.BoolVar(&n, "now", false, "show current timestamp")
 
 	flag.Parse()
