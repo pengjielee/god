@@ -30,19 +30,19 @@ const VERSION = "0.0.1"
 func main() {
 	var h bool
 	flag.BoolVar(&h, "h", false, "")
-	flag.BoolVar(&h, "help", false, "show help")
+	flag.BoolVar(&h, "help", false, "显示帮助")
 
 	var v bool
 	flag.BoolVar(&v, "v", false, "")
-	flag.BoolVar(&v, "version", false, "show version")
+	flag.BoolVar(&v, "version", false, "显示版本")
 
 	var d bool
 	flag.BoolVar(&d, "d", false, "")
-	flag.BoolVar(&d, "date", false, "show current date")
+	flag.BoolVar(&d, "date", false, "显示当前日期")
 
 	var n bool
 	flag.BoolVar(&n, "n", false, "")
-	flag.BoolVar(&n, "now", false, "show current timestamp")
+	flag.BoolVar(&n, "now", false, "显示当前时间戳")
 
 	flag.Parse()
 
