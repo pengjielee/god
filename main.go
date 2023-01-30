@@ -29,7 +29,7 @@ const VERSION = "0.0.1"
 
 func main() {
 	var h bool
-	flag.BoolVar(&h, "h", false, "show help")
+	flag.BoolVar(&h, "h", false, "")
 	flag.BoolVar(&h, "help", false, "show help")
 
 	var v bool
